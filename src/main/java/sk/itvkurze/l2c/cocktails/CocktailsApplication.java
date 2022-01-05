@@ -1,13 +1,13 @@
-package sk.itvkurze.l2c.coctails;
+package sk.itvkurze.l2c.cocktails;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoctailsApplication {
+public class CocktailsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoctailsApplication.class, args);
+		SpringApplication.run(CocktailsApplication.class, args);
 	}
 
 }
