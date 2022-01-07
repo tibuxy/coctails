@@ -25,6 +25,36 @@ public class TCocktail implements Serializable {
 	
 	@Column(name = "url", nullable = false)
 	private String url;
+
+	public TCocktail() {
+		super();
+	}
+
+	public Long getCocktailId() {
+		return cocktailId;
+	}
+
+	public void setCocktailId(Long cocktailId) {
+		this.cocktailId = cocktailId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	
 	
 	
 	
