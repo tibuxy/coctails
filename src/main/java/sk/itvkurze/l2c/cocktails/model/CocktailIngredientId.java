@@ -13,7 +13,11 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 @Embeddable
 public class CocktailIngredientId implements Serializable {
 
-	private static final long serialVersionUID = -952995699650082188L;
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3064339369007019651L;
 
 	@Column(name = "cocktailId")
 	private Long cocktailId;
