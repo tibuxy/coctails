@@ -18,6 +18,7 @@ public class CocktailXIngredientServiceImpl implements ICocktailXIngredientServi
 	
 	@Override
 	public List<TCocktailXIngredient> findAllCocktailsByIngredientIds(List<Long> ingredientIds) {
+		
 		return cocktailXIngredientRepository.findAll().stream()
 				.filter(record -> ingredientIds.contains(record.getIngredient().getIngredientId())).distinct()
 				.collect(Collectors.toList());
