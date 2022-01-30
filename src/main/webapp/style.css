@@ -56,3 +56,32 @@
   	background-attachment: fixed;
 	color: white;
 }
+.thText {
+	color: #4D392F;
+	font-size: 1.25em;
+}
+
+.resultItem {
+	color: #4D392F;
+	font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+  color: #4D392F;
+}
+
+/* visited link */
+a:visited {
+  color: #4D392F;
+}
+
+/* mouse over link */
+a:hover {
+  color: #4D392F;
+}
+
+/* selected link */
+a:active {
+  color: #4D392F;
+}
